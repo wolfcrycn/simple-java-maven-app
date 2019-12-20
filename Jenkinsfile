@@ -4,8 +4,8 @@ pipeline {
     agent any
         // 使用全局定义工具
         tools {
-            maven 'apache-maven-3.6.0'
-            jdk 'java-1.8-openjdk'
+            maven 'Maven 3.6.3'
+            jdk 'JDK 1.8.0'
         }
         stages {
             stage('build') {
